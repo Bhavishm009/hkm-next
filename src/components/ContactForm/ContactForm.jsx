@@ -1,7 +1,8 @@
+"use client";
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./ContactForm.css";
-import Contact from '/course/ContactUs.webp'
+import Image from "next/image";
 
 function ContactForm() {
   const sampleCourseNames = [
@@ -128,9 +129,10 @@ function ContactForm() {
             Fill the form so we can get to know you and your needs better.{" "}
           </p>
           {/* Ensure that Contact is imported */}
-          <img
-            src={Contact}
+          <Image
+            src="/course/ContactUs.webp"
             width={400}
+height={300}
             alt="contact image of harikrushna Multimedia institute"
           />
         </div>
