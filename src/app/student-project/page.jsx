@@ -1,8 +1,9 @@
 import React from 'react'
+import StudentProject from './StudentProject'
 
 const page = () => {
   return (
-    <div>page</div>
+    <StudentProject/>
   )
 }
 
