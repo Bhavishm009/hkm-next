@@ -4,11 +4,11 @@ import  { useState } from "react";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 import Button from "../Button/Button";
-
 import "./Navbar.css"
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+
 const navVariants = {
   initial: {
     y: "-50%",
@@ -36,7 +36,7 @@ function NavbarFixed() {
   };
 
   const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
-  const toNavigate = useNavigate();
+
   const handleNavLinkClick = () => {
       window.scrollTo(0, 0);
     toggleMobileMenu();
