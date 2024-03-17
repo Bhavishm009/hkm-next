@@ -8,13 +8,13 @@ import React, { useEffect, useState } from 'react'
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { Button } from '@mui/material';
 import VerticalCarousel from '@/components/slider/VerticalCarousel';
-import {  CourseDetails, coursePage } from '@/helpers/Constant';
+import { CourseDetails, coursePage } from '@/helpers/Constant';
 
 const page = ({ params }) => {
     const { slug } = params;
 
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
+    const [course, setCourse] = useState([]);
     useEffect(() => {
 
         const handleMouseMove = (e) => {
@@ -71,6 +71,7 @@ const page = ({ params }) => {
     };
 
     useEffect(() => {
+      
         AOS.init({
             duration: 800,
             easing: "ease-in-out",
@@ -86,8 +87,12 @@ const page = ({ params }) => {
     };
 
 
-    const details = CourseDetails.filter(course => course.heading === slug.replace(/%20/g, ' '));
-    console.log(details);
+   
+        const details = CourseDetails.filter(course => course.course === slug.replace(/%20/g, ' '));
+        setCourse(details.whatULearn);
+        console.log(details?.whatULearn)
+        console.log(course.whatULearn);
+    
 
     return (
         <div className=" font-poppins overflow-hidden mx-auto">
@@ -177,7 +182,7 @@ const page = ({ params }) => {
                         WHAT YOU'LL LEARN HERE
                     </h1>
                     <ul className=" items-start md:text-3xl text-xl">
-                        {whatULearn.map((learn, index) => (
+                        {course?.whatULearn?.map((learn, index) => (
                             <li className="mt-1 flex items-center gap-2" key={index}>
                                 <ArrowRightIcon />
                                 {learn}
