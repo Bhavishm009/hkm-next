@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import Wsa from "./Wattson_Strange_Attractor";
