@@ -319,3 +319,29 @@ export const testimonialsData = [
       'I appreciate the hands-on approach to learning. The industry-relevant curriculum prepares students for real-world challenges, making them job-ready.',
   },
 ];
+
+
+export const coursePage = [
+
+    {
+    id:1,
+heading:'GAME DESIGN';
+headingPara:'Game design is the process of creating and designing the rules, mechanics, gameplay, and overall experience of a video game or any interactive entertainment product. It is a multidisciplinary field that combines elements of art, storytelling, psychology, programming, and more to craft engaging and enjoyable player experiences.',
+    
+   HeaderImage:'/course/GamePage.webp',
+    HeighletsImage:'/course/game-design1.webp',
+    WULImage:'/course/WhatULearn.webp',
+    whatULearn = [
+    "3D Modeling",
+    "Texturing and Materials",
+    "Lighting and Rendering",
+    "Visualization Techniques",
+    "Level Design",
+    "Design Visualization",
+    "Understand Game Design",
+    "3D Environment",
+  ],
+    CertificatePara:'Harikrushna Multimedia Certified Expert in Game Design'
+
+}
+]
