@@ -12,22 +12,11 @@ import { CourseDetails, coursePage } from '@/helpers/Constant';
 
 const page = ({ params }) => {
     const { slug } = params;
-
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     const [course, setCourse] = useState([]);
-    useEffect(() => {
-
-        const handleMouseMove = (e) => {
-            setMousePosition({ x: e.clientX, y: e.clientY });
-        };
-
-        window.addEventListener("mousemove", handleMouseMove);
-
-        return () => {
-            window.removeEventListener("mousemove", handleMouseMove);
-        };
-
-    }, []);
+    const handleMouseMove = (e) => {
+        setMousePosition({ x: e.clientX, y: e.clientY });
+    };
     const CourseHighlights = [
         "Job-oriented, industry-centric curriculum",
         "Hands-on practical training using the latest tools and software",
@@ -77,21 +66,16 @@ const page = ({ params }) => {
             easing: "ease-in-out",
             offset: 100,
         });
+        const details = CourseDetails.filter(course => course.course === slug.replace(/%20/g, ' '));
+        console.log(details)
+        setCourse(details[0]);
     }, []);
-
     const calculateRotation = (axis) => {
         const maxRotation = -10;
         const rotation =
             (mousePosition[axis] / window.innerWidth - 1) * maxRotation;
         return rotation;
     };
-
-
-   
-        const details = CourseDetails.filter(course => course.course === slug.replace(/%20/g, ' '));
-        setCourse(details.whatULearn);
-        console.log(details?.whatULearn)
-        console.log(course.whatULearn);
     
 
     return (
@@ -106,8 +90,9 @@ const page = ({ params }) => {
                             )}deg) rotateY(${-calculateRotation("x")}deg)`,
                         }}
                         className="flex-1"
+                    
                     >
-                        <Image width={400} height={600} data-aos="fade-down-right" src="/course/3d-animation-overlay.webp" className=" " alt="" />
+                        <Image width={400} onMouseMove={handleMouseMove} height={600} data-aos="fade-down-right" src={course.HeaderImage} className=" " alt={course.alt} />
                     </div>
 
                     <div
@@ -118,24 +103,22 @@ const page = ({ params }) => {
                             className="text-3xl md:text-4xl font-bold mb-4"
                             style={{ color: "white" }}
                         >
-                            3D Animation
+                            {course.heading}
                         </h1>
                         <p
                             className="text-md md:text-xl w-[90%]"
                             style={{ color: "white" }}
                         >
-                            3D animation is the process of creating moving images in a
-                            three-dimensional (3D) environment, giving the illusion that these
-                            digital objects are moving through a 30 space.{" "}
+                            {course.headingPara}{" "}
                         </p>{" "}
-                        <p
+                        {/* <p
                             className="invisible md:visible text-md md:text-xl w-[90%]"
                             style={{ color: "white" }}
                         >
                             This is done by using computer software to create and manipulate
                             digital objects, or by MUL DIA INS using specialized hardware such
                             as motion capture.
-                        </p>{" "}
+                        </p>{" "} */}
                     </div>
                 </div>
             </div>
@@ -162,7 +145,7 @@ const page = ({ params }) => {
                     data-aos="zoom-in-up"
                     className="flex-1 flex items-center justify-center"
                 >
-                    <Image src="/course/3d-animation-image.webp" height={600} className=" p-5" width="600" alt="" />
+                    <Image src={course.PngImage} height={600} className=" p-5" width="600" alt="" />
                 </div>
             </div>
             {/* WHAT YOU'LL LEARN */}
@@ -171,7 +154,7 @@ const page = ({ params }) => {
                     data-aos="fade-left"
                     className="flex justify-center md:w-[60%] w-full"
                 >
-                    <Image src="/course/Animi.webp" width={700} alt="" height={500} />
+                    <Image src={course.WULImage} width={700} alt="" height={500} />
                 </div>
                 <div
                     data-aos="fade-right"
