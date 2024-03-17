@@ -1,107 +1,107 @@
 export const CourseData = [
-  {
-    course: "3D Architectural",
-    image: "/model/3D-ARCHITECTURAL.webp",
-    alt: "Harikrushna Multimedia 3D Architectural Image",
-    description:
-      "Master the creation of stunning 3D architectural visualizations. Elevate your skills with industry-leading techniques, crafting realistic models and captivating presentations.",
-    buttonText: "Enroll Now",
-  },
-  {
-    course: "Game Design",
-    image: "/model/Game-Design.webp",
-    alt: "Harikrushna Multimedia Game Design Image",
-    description:
-      "Embark on an exciting journey into game design. Explore fundamentals of mechanics, storytelling, and aesthetics. Enroll now to bring your game ideas to life.",
-    buttonText: "Enroll Now",
-  },
-  {
-    course: "Graphic Design",
-    image: "/model/Graphic-Design.webp",
-    alt: "Harikrushna Multimedia Graphic Design Image",
-    description:
-      "Unleash creativity with our comprehensive graphic design course. Dive into design principles, typography, and visual communication. Enroll now to kickstart your graphic design journey.",
-    buttonText: "Enroll Now",
-  },
+    {
+        course: "3D Architectural",
+        image: "/model/3D-ARCHITECTURAL.webp",
+        alt: "Harikrushna Multimedia 3D Architectural Image",
+        description:
+            "Master the creation of stunning 3D architectural visualizations. Elevate your skills with industry-leading techniques, crafting realistic models and captivating presentations.",
+        buttonText: "Enroll Now",
+    },
+    {
+        course: "Game Design",
+        image: "/model/Game-Design.webp",
+        alt: "Harikrushna Multimedia Game Design Image",
+        description:
+            "Embark on an exciting journey into game design. Explore fundamentals of mechanics, storytelling, and aesthetics. Enroll now to bring your game ideas to life.",
+        buttonText: "Enroll Now",
+    },
+    {
+        course: "Graphic Design",
+        image: "/model/Graphic-Design.webp",
+        alt: "Harikrushna Multimedia Graphic Design Image",
+        description:
+            "Unleash creativity with our comprehensive graphic design course. Dive into design principles, typography, and visual communication. Enroll now to kickstart your graphic design journey.",
+        buttonText: "Enroll Now",
+    },
 ];
 
 export const slides = [
-  {
-    introline: "Adobe Premiere",
-    id: "Adobe Premiere",
-  },
-  {
-    introline: "Adobe After Effects",
-    id: "Adobe After Effects",
-  },
-  {
-    introline: "3DS Max",
-    id: "3DS Max",
-  },
-  {
-    introline: "Adobe Audition",
-    id: "Adobe Audition",
-  },
-  {
-    introline: "Autodesk 3D Max",
-    id: "Autodesk 3D Max",
-  },
-  {
-    introline: "Adobe Animate CC",
-    id: "Adobe Animate CC",
-  },
-  {
-    introline: "Blender",
-    id: "Blender",
-  },
-  {
-    introline: "Adobe Photoshop",
-    id: "Adobe Photoshop",
-  },
-  {
-    introline: "Adobe Illustartor",
-    id: "Adobe Illustartor",
-  },
-  {
-    introline: "Autodesk Maya",
-    id: "Autodesk Maya",
-  },
-  {
-    introline: "CorelDraw",
-    id: "CorelDraw",
-  },
-  {
-    introline: "Adobe Indesign",
-    id: "Adobe Indesign",
-  },
-  {
-    introline: "Adobe Premiere Pro",
-    id: "Adobe Premiere Pro",
-  },
-  {
-    introline: "CorelDRAW / Animate CC",
-    id: "CorelDRAW / Animate CC",
-  },
-  {
-    introline: "Corona Render / V- Ray AutoCAD",
-    id: "Corona Render / V- Ray  AutoCAD",
-  },
+    {
+        introline: "Adobe Premiere",
+        id: "Adobe Premiere",
+    },
+    {
+        introline: "Adobe After Effects",
+        id: "Adobe After Effects",
+    },
+    {
+        introline: "3DS Max",
+        id: "3DS Max",
+    },
+    {
+        introline: "Adobe Audition",
+        id: "Adobe Audition",
+    },
+    {
+        introline: "Autodesk 3D Max",
+        id: "Autodesk 3D Max",
+    },
+    {
+        introline: "Adobe Animate CC",
+        id: "Adobe Animate CC",
+    },
+    {
+        introline: "Blender",
+        id: "Blender",
+    },
+    {
+        introline: "Adobe Photoshop",
+        id: "Adobe Photoshop",
+    },
+    {
+        introline: "Adobe Illustartor",
+        id: "Adobe Illustartor",
+    },
+    {
+        introline: "Autodesk Maya",
+        id: "Autodesk Maya",
+    },
+    {
+        introline: "CorelDraw",
+        id: "CorelDraw",
+    },
+    {
+        introline: "Adobe Indesign",
+        id: "Adobe Indesign",
+    },
+    {
+        introline: "Adobe Premiere Pro",
+        id: "Adobe Premiere Pro",
+    },
+    {
+        introline: "CorelDRAW / Animate CC",
+        id: "CorelDRAW / Animate CC",
+    },
+    {
+        introline: "Corona Render / V- Ray AutoCAD",
+        id: "Corona Render / V- Ray  AutoCAD",
+    },
 ];
 
 export const WhyChooseUs = [
-  "ONE COMPUTER TO ONE STUDENT WITH ONE INSTRUCTOR. ( 1: 4 ratio)",
-  "100% Placement Assistance",
-  "Session wise teaching, hence no monthly or yearly bounded courses.",
-  "Personal Counseling.",
-  "Lectures And Guest Sessions From Industry Experts",
-  "Project and Portfolio Creation",
-  "Incubator Program As Per Studio Pipeline And Workflow",
-  "Unlimited Practice Hours",
-  "100% Placement Assistance",
-  "Internal Competition",
-  "We can start any course according to the time schedule of the student and his/her learning pace",
-  "Regular Workshops & Seminars",
-  "Experiential Learning Through Practical & Hands On Training",
+    "ONE COMPUTER TO ONE STUDENT WITH ONE INSTRUCTOR. ( 1: 4 ratio)",
+    "100% Placement Assistance",
+    "Session wise teaching, hence no monthly or yearly bounded courses.",
+    "Personal Counseling.",
+    "Lectures And Guest Sessions From Industry Experts",
+    "Project and Portfolio Creation",
+    "Incubator Program As Per Studio Pipeline And Workflow",
+    "Unlimited Practice Hours",
+    "100% Placement Assistance",
+    "Internal Competition",
+    "We can start any course according to the time schedule of the student and his/her learning pace",
+    "Regular Workshops & Seminars",
+    "Experiential Learning Through Practical & Hands On Training",
 ];
 
 export const CourseDetails = [
@@ -438,101 +438,101 @@ export const CourseDetails = [
 ];
 
 export const faqData = [
-  {
-    question: "What are the key aspects of the course?",
-    answer:
-      "The key aspects include 3D Modeling, Texturing and Materials, Lighting and Rendering, Visualization Techniques, Level Design, Design Visualization, Understand Game Design, and 3D Environment.",
-  },
-  {
-    question: "Who is this course suitable for?",
-    answer:
-      "This course is suitable for anyone interested in entering the field of game design. Whether you're a beginner or have some experience in related disciplines, our course is designed to accommodate various skill levels.",
-  },
-  {
-    question: "Are there any prerequisites for enrolling in this course?",
-    answer:
-      "There are no specific prerequisites for enrolling in this course. However, a basic understanding of computer usage and a passion for gaming and design can be beneficial.",
-  },
-  {
-    question: "What software or tools will be used in the course?",
-    answer:
-      "The course will cover the use of industry-standard software for game design, including but not limited to tools for 3D modeling, texturing, and rendering. Specific software details will be provided during the course.",
-  },
-  {
-    question:
-      "Is there any certification provided upon completion of the course?",
-    answer:
-      "Yes, upon successful completion of the course, participants will receive a certification in game design from Harikrushna Multimedia, acknowledging their skills and knowledge in the field.",
-  },
-  {
-    question:
-      "Are there any job placement opportunities after completing the course?",
-    answer:
-      "Harikrushna Multimedia is committed to helping students succeed in their careers. While we cannot guarantee job placements, we provide guidance and support, including career counseling and assistance with building portfolios, to enhance your employment prospects in the game design industry.",
-  },
-  {
-    question: "What courses does Harikrushna Multimedia offer?",
-    answer:
-      "Harikrushna Multimedia offers a range of courses to ignite your creative passions and equip you with industry-leading skills. Some of our courses include 3D ARCHITECTURAL, VIDEO EDITING, GAME DESIGN, 3D ANIMATION, VISUAL EFFECT, and 2D ANIMATION.",
-  },
-  {
-    question: "Can I enroll in multiple courses simultaneously?",
-    answer:
-      "Yes, you can enroll in multiple courses simultaneously. However, we recommend considering the workload and time commitment to ensure a successful learning experience.",
-  },
+    {
+        question: "What are the key aspects of the course?",
+        answer:
+            "The key aspects include 3D Modeling, Texturing and Materials, Lighting and Rendering, Visualization Techniques, Level Design, Design Visualization, Understand Game Design, and 3D Environment.",
+    },
+    {
+        question: "Who is this course suitable for?",
+        answer:
+            "This course is suitable for anyone interested in entering the field of game design. Whether you're a beginner or have some experience in related disciplines, our course is designed to accommodate various skill levels.",
+    },
+    {
+        question: "Are there any prerequisites for enrolling in this course?",
+        answer:
+            "There are no specific prerequisites for enrolling in this course. However, a basic understanding of computer usage and a passion for gaming and design can be beneficial.",
+    },
+    {
+        question: "What software or tools will be used in the course?",
+        answer:
+            "The course will cover the use of industry-standard software for game design, including but not limited to tools for 3D modeling, texturing, and rendering. Specific software details will be provided during the course.",
+    },
+    {
+        question:
+            "Is there any certification provided upon completion of the course?",
+        answer:
+            "Yes, upon successful completion of the course, participants will receive a certification in game design from Harikrushna Multimedia, acknowledging their skills and knowledge in the field.",
+    },
+    {
+        question:
+            "Are there any job placement opportunities after completing the course?",
+        answer:
+            "Harikrushna Multimedia is committed to helping students succeed in their careers. While we cannot guarantee job placements, we provide guidance and support, including career counseling and assistance with building portfolios, to enhance your employment prospects in the game design industry.",
+    },
+    {
+        question: "What courses does Harikrushna Multimedia offer?",
+        answer:
+            "Harikrushna Multimedia offers a range of courses to ignite your creative passions and equip you with industry-leading skills. Some of our courses include 3D ARCHITECTURAL, VIDEO EDITING, GAME DESIGN, 3D ANIMATION, VISUAL EFFECT, and 2D ANIMATION.",
+    },
+    {
+        question: "Can I enroll in multiple courses simultaneously?",
+        answer:
+            "Yes, you can enroll in multiple courses simultaneously. However, we recommend considering the workload and time commitment to ensure a successful learning experience.",
+    },
 
-  // Add more questions and answers as needed
+    // Add more questions and answers as needed
 ];
 
 export const testimonialsData = [
-  {
-    id: 1,
-    name: "Hetal Patel",
-    photo: "/course/BouStudent1.webp",
-    contentHeading: "Excellent Teaching Style",
-    content:
-      "I am extremely happy with the classes at Harikrushna Multimedia Institute. The teaching style is excellent, and the practical approach helped me grasp concepts easily.",
-  },
-  {
-    id: 2,
-    name: "Rajesh Shah",
-    photo: "/course/BoyStudent.webp",
-    contentHeading: "Highly Supportive Faculty",
-    content:
-      "The faculty members are highly knowledgeable and supportive. They go the extra mile to ensure that every student understands the topics thoroughly.",
-  },
-  {
-    id: 3,
-    name: "Asha Desai",
-    photo: "/course/GirlStudent1.webp",
-    contentHeading: "Wonderful Learning Experience",
-    content:
-      "Attending classes here has been a wonderful experience. The projects are challenging, and the guidance provided by the instructors is invaluable.",
-  },
-  {
-    id: 4,
-    name: "Jignesh Mehta",
-    photo: "/course/BoyStudent2.webp",
-    contentHeading: "Friendly and Encouraging Atmosphere",
-    content:
-      "The friendly and encouraging atmosphere at Harikrushna Multimedia Institute makes learning enjoyable. I recommend this institute to anyone interested in multimedia courses.",
-  },
-  {
-    id: 5,
-    name: "Pooja Joshi",
-    photo: "/course/GirlStudent.webp",
-    contentHeading: "Emphasis on Practical Skills",
-    content:
-      "The institute's emphasis on practical skills not only sets it apart but also enhances employability. The placement assistance provided after completing the course is a significant advantage for graduates seeking career opportunities.",
-  },
-  {
-    id: 6,
-    name: "Harshad Kajale",
-    photo: "/course/BouStudent3.webp",
-    contentHeading: "Hands-On Approach to Learning",
-    content:
-      "I appreciate the hands-on approach to learning. The industry-relevant curriculum prepares students for real-world challenges, making them job-ready.",
-  },
+    {
+        id: 1,
+        name: "Hetal Patel",
+        photo: "/course/BouStudent1.webp",
+        contentHeading: "Excellent Teaching Style",
+        content:
+            "I am extremely happy with the classes at Harikrushna Multimedia Institute. The teaching style is excellent, and the practical approach helped me grasp concepts easily.",
+    },
+    {
+        id: 2,
+        name: "Rajesh Shah",
+        photo: "/course/BoyStudent.webp",
+        contentHeading: "Highly Supportive Faculty",
+        content:
+            "The faculty members are highly knowledgeable and supportive. They go the extra mile to ensure that every student understands the topics thoroughly.",
+    },
+    {
+        id: 3,
+        name: "Asha Desai",
+        photo: "/course/GirlStudent1.webp",
+        contentHeading: "Wonderful Learning Experience",
+        content:
+            "Attending classes here has been a wonderful experience. The projects are challenging, and the guidance provided by the instructors is invaluable.",
+    },
+    {
+        id: 4,
+        name: "Jignesh Mehta",
+        photo: "/course/BoyStudent2.webp",
+        contentHeading: "Friendly and Encouraging Atmosphere",
+        content:
+            "The friendly and encouraging atmosphere at Harikrushna Multimedia Institute makes learning enjoyable. I recommend this institute to anyone interested in multimedia courses.",
+    },
+    {
+        id: 5,
+        name: "Pooja Joshi",
+        photo: "/course/GirlStudent.webp",
+        contentHeading: "Emphasis on Practical Skills",
+        content:
+            "The institute's emphasis on practical skills not only sets it apart but also enhances employability. The placement assistance provided after completing the course is a significant advantage for graduates seeking career opportunities.",
+    },
+    {
+        id: 6,
+        name: "Harshad Kajale",
+        photo: "/course/BouStudent3.webp",
+        contentHeading: "Hands-On Approach to Learning",
+        content:
+            "I appreciate the hands-on approach to learning. The industry-relevant curriculum prepares students for real-world challenges, making them job-ready.",
+    },
 ];
 
 export const coursePage = [
