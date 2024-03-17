@@ -7,7 +7,8 @@ import "./Course.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useNavigate } from "react-router-dom";
+import Link from "next/link";
+
 
 const CourseMiddle = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const CourseMiddle = () => {
       offset: 100,
     });
   }, []);
-  const toNavigate = useNavigate();
+ 
   return (
     <div className="flex py-12 justify-center bg-gray-100 overflow-x-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2">
@@ -37,15 +38,16 @@ const CourseMiddle = () => {
             <p className="p-1 md:w-[60%] text-center mb-5 md:text-lg text-sm">
               {course.description}
             </p>
-            <Button
+            <Link
+                href={`/courses/${course.course}`}
               className="p-4 button-course"
               onClick={() => {
-                toNavigate(course.button.link);
+               
                 window.scrollTo(0, 0);
               }}
             >
               {course.button.text}
-            </Button>
+            </Link>
           </div>
         ))}
       </div>
