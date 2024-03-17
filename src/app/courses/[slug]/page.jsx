@@ -8,6 +8,7 @@ import React, { useEffect, useState } from 'react'
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { Button } from '@mui/material';
 import VerticalCarousel from '@/components/slider/VerticalCarousel';
+import {  CourseDetails, coursePage } from '@/helpers/Constant';
 
 const page = ({ params }) => {
     const { slug } = params;
@@ -15,6 +16,7 @@ const page = ({ params }) => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
+
         const handleMouseMove = (e) => {
             setMousePosition({ x: e.clientX, y: e.clientY });
         };
@@ -24,6 +26,7 @@ const page = ({ params }) => {
         return () => {
             window.removeEventListener("mousemove", handleMouseMove);
         };
+
     }, []);
     const CourseHighlights = [
         "Job-oriented, industry-centric curriculum",
@@ -81,6 +84,10 @@ const page = ({ params }) => {
             (mousePosition[axis] / window.innerWidth - 1) * maxRotation;
         return rotation;
     };
+
+
+    const details = CourseDetails.filter(course => course.heading === slug.replace(/%20/g, ' '));
+    console.log(details);
 
     return (
         <div className=" font-poppins overflow-hidden mx-auto">
@@ -159,7 +166,7 @@ const page = ({ params }) => {
                     data-aos="fade-left"
                     className="flex justify-center md:w-[60%] w-full"
                 >
-                    <Image src="/course/Animi.webp" width={700} alt="" height={500}/>
+                    <Image src="/course/Animi.webp" width={700} alt="" height={500} />
                 </div>
                 <div
                     data-aos="fade-right"

@@ -42,7 +42,6 @@ const CourseMiddle = () => {
                 href={`/courses/${course.course}`}
               className="p-4 button-course"
               onClick={() => {
-               
                 window.scrollTo(0, 0);
               }}
             >
