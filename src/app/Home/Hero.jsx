@@ -1,3 +1,6 @@
+"use client"
+
+
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import TyperWriter from "./TyperWriter";
 import { Canvas } from "@react-three/fiber";
