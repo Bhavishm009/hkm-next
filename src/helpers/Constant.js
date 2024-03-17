@@ -1,4 +1,3 @@
-
 export const CourseData = [
   {
     course: "3D Architectural",
@@ -229,119 +228,251 @@ export const CourseDetails = [
 ];
 
 export const faqData = [
-
   {
     question: "What are the key aspects of the course?",
-    answer: "The key aspects include 3D Modeling, Texturing and Materials, Lighting and Rendering, Visualization Techniques, Level Design, Design Visualization, Understand Game Design, and 3D Environment.",
+    answer:
+      "The key aspects include 3D Modeling, Texturing and Materials, Lighting and Rendering, Visualization Techniques, Level Design, Design Visualization, Understand Game Design, and 3D Environment.",
   },
   {
     question: "Who is this course suitable for?",
-    answer: "This course is suitable for anyone interested in entering the field of game design. Whether you're a beginner or have some experience in related disciplines, our course is designed to accommodate various skill levels.",
+    answer:
+      "This course is suitable for anyone interested in entering the field of game design. Whether you're a beginner or have some experience in related disciplines, our course is designed to accommodate various skill levels.",
   },
   {
     question: "Are there any prerequisites for enrolling in this course?",
-    answer: "There are no specific prerequisites for enrolling in this course. However, a basic understanding of computer usage and a passion for gaming and design can be beneficial.",
+    answer:
+      "There are no specific prerequisites for enrolling in this course. However, a basic understanding of computer usage and a passion for gaming and design can be beneficial.",
   },
   {
     question: "What software or tools will be used in the course?",
-    answer: "The course will cover the use of industry-standard software for game design, including but not limited to tools for 3D modeling, texturing, and rendering. Specific software details will be provided during the course.",
+    answer:
+      "The course will cover the use of industry-standard software for game design, including but not limited to tools for 3D modeling, texturing, and rendering. Specific software details will be provided during the course.",
   },
   {
-    question: "Is there any certification provided upon completion of the course?",
-    answer: "Yes, upon successful completion of the course, participants will receive a certification in game design from Harikrushna Multimedia, acknowledging their skills and knowledge in the field.",
+    question:
+      "Is there any certification provided upon completion of the course?",
+    answer:
+      "Yes, upon successful completion of the course, participants will receive a certification in game design from Harikrushna Multimedia, acknowledging their skills and knowledge in the field.",
   },
   {
-    question: "Are there any job placement opportunities after completing the course?",
-    answer: "Harikrushna Multimedia is committed to helping students succeed in their careers. While we cannot guarantee job placements, we provide guidance and support, including career counseling and assistance with building portfolios, to enhance your employment prospects in the game design industry.",
+    question:
+      "Are there any job placement opportunities after completing the course?",
+    answer:
+      "Harikrushna Multimedia is committed to helping students succeed in their careers. While we cannot guarantee job placements, we provide guidance and support, including career counseling and assistance with building portfolios, to enhance your employment prospects in the game design industry.",
   },
   {
     question: "What courses does Harikrushna Multimedia offer?",
-    answer: "Harikrushna Multimedia offers a range of courses to ignite your creative passions and equip you with industry-leading skills. Some of our courses include 3D ARCHITECTURAL, VIDEO EDITING, GAME DESIGN, 3D ANIMATION, VISUAL EFFECT, and 2D ANIMATION.",
+    answer:
+      "Harikrushna Multimedia offers a range of courses to ignite your creative passions and equip you with industry-leading skills. Some of our courses include 3D ARCHITECTURAL, VIDEO EDITING, GAME DESIGN, 3D ANIMATION, VISUAL EFFECT, and 2D ANIMATION.",
   },
   {
     question: "Can I enroll in multiple courses simultaneously?",
-    answer: "Yes, you can enroll in multiple courses simultaneously. However, we recommend considering the workload and time commitment to ensure a successful learning experience.",
+    answer:
+      "Yes, you can enroll in multiple courses simultaneously. However, we recommend considering the workload and time commitment to ensure a successful learning experience.",
   },
- 
- 
+
   // Add more questions and answers as needed
 ];
-
-
 
 export const testimonialsData = [
   {
     id: 1,
-    name: 'Hetal Patel',
+    name: "Hetal Patel",
     photo: "/course/BouStudent1.webp",
-    contentHeading: 'Excellent Teaching Style',
+    contentHeading: "Excellent Teaching Style",
     content:
-      'I am extremely happy with the classes at Harikrushna Multimedia Institute. The teaching style is excellent, and the practical approach helped me grasp concepts easily.',
+      "I am extremely happy with the classes at Harikrushna Multimedia Institute. The teaching style is excellent, and the practical approach helped me grasp concepts easily.",
   },
   {
     id: 2,
-    name: 'Rajesh Shah',
-    photo: '/course/BoyStudent.webp',
-    contentHeading: 'Highly Supportive Faculty',
+    name: "Rajesh Shah",
+    photo: "/course/BoyStudent.webp",
+    contentHeading: "Highly Supportive Faculty",
     content:
-      'The faculty members are highly knowledgeable and supportive. They go the extra mile to ensure that every student understands the topics thoroughly.',
+      "The faculty members are highly knowledgeable and supportive. They go the extra mile to ensure that every student understands the topics thoroughly.",
   },
   {
     id: 3,
-    name: 'Asha Desai',
-    photo: '/course/GirlStudent1.webp',
-    contentHeading: 'Wonderful Learning Experience',
+    name: "Asha Desai",
+    photo: "/course/GirlStudent1.webp",
+    contentHeading: "Wonderful Learning Experience",
     content:
-      'Attending classes here has been a wonderful experience. The projects are challenging, and the guidance provided by the instructors is invaluable.',
+      "Attending classes here has been a wonderful experience. The projects are challenging, and the guidance provided by the instructors is invaluable.",
   },
   {
     id: 4,
-    name: 'Jignesh Mehta',
-    photo: '/course/BoyStudent2.webp',
-    contentHeading: 'Friendly and Encouraging Atmosphere',
+    name: "Jignesh Mehta",
+    photo: "/course/BoyStudent2.webp",
+    contentHeading: "Friendly and Encouraging Atmosphere",
     content:
-      'The friendly and encouraging atmosphere at Harikrushna Multimedia Institute makes learning enjoyable. I recommend this institute to anyone interested in multimedia courses.',
+      "The friendly and encouraging atmosphere at Harikrushna Multimedia Institute makes learning enjoyable. I recommend this institute to anyone interested in multimedia courses.",
   },
   {
     id: 5,
-    name: 'Pooja Joshi',
-    photo: '/course/GirlStudent.webp',
-    contentHeading: 'Emphasis on Practical Skills',
+    name: "Pooja Joshi",
+    photo: "/course/GirlStudent.webp",
+    contentHeading: "Emphasis on Practical Skills",
     content:
       "The institute's emphasis on practical skills not only sets it apart but also enhances employability. The placement assistance provided after completing the course is a significant advantage for graduates seeking career opportunities.",
   },
   {
     id: 6,
-    name: 'Harshad Kajale',
-    photo: '/course/BouStudent3.webp',
-    contentHeading: 'Hands-On Approach to Learning',
+    name: "Harshad Kajale",
+    photo: "/course/BouStudent3.webp",
+    contentHeading: "Hands-On Approach to Learning",
     content:
-      'I appreciate the hands-on approach to learning. The industry-relevant curriculum prepares students for real-world challenges, making them job-ready.',
+      "I appreciate the hands-on approach to learning. The industry-relevant curriculum prepares students for real-world challenges, making them job-ready.",
   },
 ];
 
-
 export const coursePage = [
-
-    {
-    id:1,
-heading:'GAME DESIGN';
-headingPara:'Game design is the process of creating and designing the rules, mechanics, gameplay, and overall experience of a video game or any interactive entertainment product. It is a multidisciplinary field that combines elements of art, storytelling, psychology, programming, and more to craft engaging and enjoyable player experiences.',
-    
-   HeaderImage:'/course/GamePage.webp',
-    HeighletsImage:'/course/game-design1.webp',
-    WULImage:'/course/WhatULearn.webp',
-    whatULearn = [
-    "3D Modeling",
+  {
+    id: 1,
+    heading: "GAME DESIGN",
+    headingPara:
+      "Game design is the process of creating and designing the rules, mechanics, gameplay, and overall experience of a video game or any interactive entertainment product. It is a multidisciplinary field that combines elements of art, storytelling, psychology, programming, and more to craft engaging and enjoyable player experiences.",
+    PngImage:'/course/gamepng.webp',
+    HeaderImage: "/course/GamePage.webp",
+    HeighletsImage: "/course/game-design1.webp",
+    WULImage: "/course/WhatULearn.webp",
+    whatULearn: [
+      "3D Modeling",
+      "Texturing and Materials",
+      "Lighting and Rendering",
+      "Visualization Techniques",
+      "Level Design",
+      "Design Visualization",
+      "Understand Game Design",
+      "3D Environment",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in Game Design",
+  },
+  {
+    id: 2,
+    heading: "3D JEWELLERY DESIGN",
+    headingPara:
+      "3D jewellery design uses computer software to craft and visualize jewelry in 3D, offering more creative freedom, quicker prototyping, and realistic representation compared to traditional methods. This approach is cost-effective, customizable, and enables easy collaboration while reducing material waste.",
+    PngImage:'/course/JewelleryPng.webp',
+    HeaderImage: "/course/GamePage.webp",
+    HeighletsImage: "/course/JewelleryOver.webp",
+    WULImage: "/course/JewelleryPng.png",
+    whatULearn: [
+      "3D Modeling",
     "Texturing and Materials",
     "Lighting and Rendering",
     "Visualization Techniques",
-    "Level Design",
+    "Enhanced Creativity",
+    "Realistic Visualization",
+    "Materials",
+    "Realistic Rendering",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in 3D JEWELLERY DESIGN",
+  },
+{
+    id: 3,
+    heading: "3D Architechure",
+    headingPara:
+      "3D architectural visualization is the creation of lifelike 3D representa tions of architectural designs and buildings using software tools. It helps architects, designers, and developers communicate their concepts effectively and present the appearance and features of a structure before construction. It is widely used              in real estate marketing MULEDLA IN and design iterations.",
+    PngImage:'/course/3DARchitechureimg.webp',
+    HeaderImage: "/course/3d-architechure-bg.webp",
+    HeighletsImage: "/course/3d-architechure-image.webp",
+    WULImage: "/course/3DARCHITECTURALWUL.webp",
+    whatULearn: [
+         "3D Modeling",
+    "Texturing and Materials",
+    "Lighting and Rendering",
+    "Visualization Techniques",
+    "Client Presentations",
     "Design Visualization",
-    "Understand Game Design",
-    "3D Environment",
-  ],
-    CertificatePara:'Harikrushna Multimedia Certified Expert in Game Design'
+    "Interior Design",
+    "Exterior Design",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in 3D JEWELLERY DESIGN",
+  },
+{
+    id: 4,
+    heading: "3D JEWELLERY DESIGN",
+    headingPara:
+      "3D jewellery design uses computer software to craft and visualize jewelry in 3D, offering more creative freedom, quicker prototyping, and realistic representation compared to traditional methods. This approach is cost-effective, customizable, and enables easy collaboration while reducing material waste.",
+    PngImage:'/course/JewelleryPng.webp',
+    HeaderImage: "/course/GamePage.webp",
+    HeighletsImage: "/course/JewelleryOver.webp",
+    WULImage: "/course/JewelleryPng.png",
+    whatULearn: [
+      "3D Modeling",
+    "Texturing and Materials",
+    "Lighting and Rendering",
+    "Visualization Techniques",
+    "Enhanced Creativity",
+    "Realistic Visualization",
+    "Materials",
+    "Realistic Rendering",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in 3D JEWELLERY DESIGN",
+  },
+{
+    id: 2,
+    heading: "3D JEWELLERY DESIGN",
+    headingPara:
+      "3D jewellery design uses computer software to craft and visualize jewelry in 3D, offering more creative freedom, quicker prototyping, and realistic representation compared to traditional methods. This approach is cost-effective, customizable, and enables easy collaboration while reducing material waste.",
+    PngImage:'/course/JewelleryPng.webp',
+    HeaderImage: "/course/GamePage.webp",
+    HeighletsImage: "/course/JewelleryOver.webp",
+    WULImage: "/course/JewelleryPng.png",
+    whatULearn: [
+      "3D Modeling",
+    "Texturing and Materials",
+    "Lighting and Rendering",
+    "Visualization Techniques",
+    "Enhanced Creativity",
+    "Realistic Visualization",
+    "Materials",
+    "Realistic Rendering",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in 3D JEWELLERY DESIGN",
+  },
+{
+    id: 2,
+    heading: "3D JEWELLERY DESIGN",
+    headingPara:
+      "3D jewellery design uses computer software to craft and visualize jewelry in 3D, offering more creative freedom, quicker prototyping, and realistic representation compared to traditional methods. This approach is cost-effective, customizable, and enables easy collaboration while reducing material waste.",
+    PngImage:'/course/JewelleryPng.webp',
+    HeaderImage: "/course/GamePage.webp",
+    HeighletsImage: "/course/JewelleryOver.webp",
+    WULImage: "/course/JewelleryPng.png",
+    whatULearn: [
+      "3D Modeling",
+    "Texturing and Materials",
+    "Lighting and Rendering",
+    "Visualization Techniques",
+    "Enhanced Creativity",
+    "Realistic Visualization",
+    "Materials",
+    "Realistic Rendering",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in 3D JEWELLERY DESIGN",
+  },
+{
+    id: 2,
+    heading: "3D JEWELLERY DESIGN",
+    headingPara:
+      "3D jewellery design uses computer software to craft and visualize jewelry in 3D, offering more creative freedom, quicker prototyping, and realistic representation compared to traditional methods. This approach is cost-effective, customizable, and enables easy collaboration while reducing material waste.",
+    PngImage:'/course/JewelleryPng.webp',
+    HeaderImage: "/course/GamePage.webp",
+    HeighletsImage: "/course/JewelleryOver.webp",
+    WULImage: "/course/JewelleryPng.png",
+    whatULearn: [
+      "3D Modeling",
+    "Texturing and Materials",
+    "Lighting and Rendering",
+    "Visualization Techniques",
+    "Enhanced Creativity",
+    "Realistic Visualization",
+    "Materials",
+    "Realistic Rendering",
+    ],
+    CertificatePara: "Harikrushna Multimedia Certified Expert in 3D JEWELLERY DESIGN",
+  },
 
-}
-]
+
+];
