@@ -325,7 +325,7 @@ export const coursePage = [
 
     {
     id:1,
-heading:'GAME DESIGN';
+heading:'GAME DESIGN',
 headingPara:'Game design is the process of creating and designing the rules, mechanics, gameplay, and overall experience of a video game or any interactive entertainment product. It is a multidisciplinary field that combines elements of art, storytelling, psychology, programming, and more to craft engaging and enjoyable player experiences.',
     
    HeaderImage:'/course/GamePage.webp',
