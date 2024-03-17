@@ -331,7 +331,7 @@ headingPara:'Game design is the process of creating and designing the rules, mec
    HeaderImage:'/course/GamePage.webp',
     HeighletsImage:'/course/game-design1.webp',
     WULImage:'/course/WhatULearn.webp',
-    whatULearn = [
+    whatULearn:[
     "3D Modeling",
     "Texturing and Materials",
     "Lighting and Rendering",
