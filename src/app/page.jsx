@@ -4,6 +4,7 @@ import HomeMiddle from "./Home/HomeMiddle";
 import HomeAbout from "./Home/HomeAbout";
 import HomeExplore from "./Home/HomeExplore";
 import HomeReview from "./Home/HomeReview";
+import './Home/homeStyles.css';
 // import img from "../../assets/vfx.webp";
 export default function Home() {
   const containerStyle = {

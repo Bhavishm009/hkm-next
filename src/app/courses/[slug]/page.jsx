@@ -27,18 +27,8 @@ const page = ({ params }) => {
     ];
     const router = useRouter();
 
-    const whatULearn = [
-        "3D Modeling",
-        "Texturing and Materials",
-        "Lighting and Rendering",
-        "Visualization Techniques",
-        "Animation Principles",
-        "Design Visualization",
-        "3D Background",
-    ];
-
     const backgroundStyles = {
-        backgroundImage: `url(/course/3d-animation-bg.webp)`, // Use backticks for string interpolation
+        backgroundImage: `url(${course.HeaderImage})`, // Use backticks for string interpolation
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100vh",
@@ -67,7 +57,6 @@ const page = ({ params }) => {
             offset: 100,
         });
         const details = CourseDetails.filter(course => course.course === slug.replace(/%20/g, ' '));
-        console.log(details)
         setCourse(details[0]);
     }, []);
     const calculateRotation = (axis) => {
@@ -82,7 +71,7 @@ const page = ({ params }) => {
         <div className=" font-poppins overflow-hidden mx-auto">
             <div className="" style={backgroundStyles}>
                 <div style={bgOverlayStyle}></div>
-                <div className="mb-8y h-[100vh] flex md:flex-row flex-col-reverse justify-center items-center">
+                <div className="mb-8 h-[100vh] flex md:flex-row flex-col-reverse justify-center items-center">
                     <div
                         style={{
                             transform: `rotateX(${calculateRotation(
@@ -92,7 +81,7 @@ const page = ({ params }) => {
                         className="flex-1"
                     
                     >
-                        <Image width={400} onMouseMove={handleMouseMove} height={600} data-aos="fade-down-right" src={course.HeaderImage} className=" " alt={course.alt} />
+                        <Image width={700} onMouseMove={handleMouseMove} height={600} data-aos="fade-down-right" src={course.PngImage} className=" " alt={course.alt} />
                     </div>
 
                     <div
@@ -145,7 +134,7 @@ const page = ({ params }) => {
                     data-aos="zoom-in-up"
                     className="flex-1 flex items-center justify-center"
                 >
-                    <Image src={course.PngImage} height={600} className=" p-5" width="600" alt="" />
+                    <Image src={course.HeighletsImage} height={600} className=" p-5" width="600" alt="" />
                 </div>
             </div>
             {/* WHAT YOU'LL LEARN */}

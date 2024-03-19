@@ -36,7 +36,17 @@ const Hero = () => {
       (mousePosition[axis] / window.innerWidth - 1) * maxRotation;
     return rotation;
   };
-
+  
+  const handleDownload = () =>{
+    const url ='/harikrushnaMultimedia.pdf';
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'harikrushnaMultimedia.pdf'; // Optional: specify the filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+  
   return (
     <div
       className="h-[100vh] opacity-1 w-full md:w-[95%] flex flex-col justify-center"
@@ -62,7 +72,7 @@ const Hero = () => {
               <TyperWriter />
             </div>
           </div>
-          <Button value={"Download"} data-aos="flip-up" className={"btn"} />
+          <Button value={"Download"} data-aos="flip-up" className="buttonn" onClick={handleDownload}/>
         </div>
         <div className="flex-1 h-full w-full text-white">
          
