@@ -47,8 +47,6 @@ const page = () => {
 
     return (
         <>
-
-
             <div
                 className="mx-auto flex justify-center text-center "
                 style={backgroundStyles}

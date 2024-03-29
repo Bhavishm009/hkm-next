@@ -2,11 +2,12 @@
 
 import React, { useEffect } from "react";
 import Button from "../../components/Button/Button";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
+
 function StudentHeroSection() {
+
     useEffect(() => {
         AOS.init({
             duration: 800,
@@ -14,6 +15,7 @@ function StudentHeroSection() {
             offset: 100,
         });
     }, []);
+
     return (
         <div className="h-[100vh]  flex justify-center items-center">
             <header className="bg-white w-full h-full flex items-center dark:bg-gray-900">
