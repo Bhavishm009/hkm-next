@@ -4,7 +4,7 @@ import HomeMiddle from "./HomeMiddle";
 import HomeAbout from "./HomeAbout";
 import HomeExplore from "./HomeExplore";
 import HomeReview from "./HomeReview";
-import { Helmet } from "react-helmet-async";
+
 function Home() {
   const containerStyle = {
     position: "relative",
