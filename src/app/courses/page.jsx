@@ -3,8 +3,17 @@
 import AOS from 'aos';
 import React, { useEffect } from 'react'
 import "aos/dist/aos.css";
-import { useRouter } from 'next/navigation';
 import CourseMiddle from './CourseMiddle';
+
+
+// export const metadata = {
+//     title: "Courses",
+//     description: "About description",
+//     alternates: {
+//         canonical: "/courses"
+//     }
+// };
+
 
 const page = () => {
    useEffect(() => {

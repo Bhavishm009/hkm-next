@@ -1,16 +1,16 @@
-import Image from "next/image";
+
 import Hero from "./Home/Hero";
 import HomeMiddle from "./Home/HomeMiddle";
 import HomeAbout from "./Home/HomeAbout";
 import HomeExplore from "./Home/HomeExplore";
 import HomeReview from "./Home/HomeReview";
 import './Home/homeStyles.css';
-// import img from "../../assets/vfx.webp";
+
 export default function Home() {
   const containerStyle = {
     position: "relative",
     minHeight: "100vh",
-    backgroundImage: `url(${"../../assets/vfx.webp"})`,
+    backgroundImage: `url(${"/assets/vfx.webp"})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",

@@ -2,7 +2,6 @@
 
 import  { useState, useEffect } from 'react';
 import { useTrail, animated } from 'react-spring';
-// import { Helmet } from 'react-helmet';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import './homeStyles.css';
 import { WhyChooseUs } from '../../helpers/Constant';

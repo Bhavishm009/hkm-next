@@ -1,15 +1,14 @@
 import Hero from "./Hero";
-import img from "../../assets/vfx.webp";
 import HomeMiddle from "./HomeMiddle";
 import HomeAbout from "./HomeAbout";
 import HomeExplore from "./HomeExplore";
 import HomeReview from "./HomeReview";
-import { Helmet } from "react-helmet-async";
+
 function Home() {
   const containerStyle = {
     position: "relative",
     minHeight: "100vh",
-    backgroundImage: `url(/assets/vfx.webp)`,
+    backgroundImage: `url(${"/assets/vfx.webp"})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
