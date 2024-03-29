@@ -10,7 +10,7 @@ export default function Home() {
   const containerStyle = {
     position: "relative",
     minHeight: "100vh",
-    backgroundImage: `url(${"../../assets/vfx.webp"})`,
+    backgroundImage: `url(${"/assets/vfx.webp"})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",

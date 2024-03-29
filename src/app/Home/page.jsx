@@ -1,5 +1,4 @@
 import Hero from "./Hero";
-import img from "../../assets/vfx.webp";
 import HomeMiddle from "./HomeMiddle";
 import HomeAbout from "./HomeAbout";
 import HomeExplore from "./HomeExplore";
